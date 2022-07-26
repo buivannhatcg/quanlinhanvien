@@ -1,0 +1,149 @@
+/* Add padding to containers */
+
+.modal-container {
+    padding: 16px;
+    background-color: white;
+}
+
+#addAndUpdateAcccountModal select:invalid {
+    color: gray;
+}
+
+#addAccountsToDepartmentModal .page-nav {
+    float: unset;
+    margin-left: 302px;
+}
+
+
+/* Custom Add and Update Account Modal */
+
+#addAndUpdateAcccountModal .modal-body {
+    padding: 15px 45px;
+}
+
+#addAndUpdateAcccountModal #modal-username {
+    width: 416px;
+    margin-left: 15px;
+}
+
+#addAndUpdateAcccountModal #modal-first-name {
+    width: 130px;
+    margin: 0 15px;
+}
+
+#addAndUpdateAcccountModal #modal-last-name {
+    width: 168px;
+    margin-left: 15px;
+}
+
+#addAndUpdateAcccountModal #role-label {
+    padding-left: 41px;
+}
+
+#addAndUpdateAcccountModal #modal-role-select {
+    margin-left: 15px;
+    display: inline-block;
+    width: 413px;
+}
+
+#addAndUpdateAcccountModal #department-lable {
+    margin-left: -9px;
+    margin-top: 28px;
+}
+
+#addAndUpdateAcccountModal #modal-department-select {
+    margin-left: 15px;
+    display: inline-block;
+    width: 414px;
+}
+
+
+/* Custom Add and Update Department Modal */
+
+#addAndUpdateDepartmentModal .modal-body {
+    padding: 15px 45px;
+}
+
+#addAndUpdateDepartmentModal #modal-department-name {
+    margin-left: 15px;
+    width: 446px;
+}
+
+#addAndUpdateDepartmentModal #modal-type-select {
+    margin-left: 15px;
+    display: inline-block;
+    width: 446px;
+}
+
+#addAndUpdateDepartmentModal #type-label {
+    margin-left: 8px;
+}
+
+
+/* Full-width input fields */
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.modal .input-errMess {
+    color: red;
+    display: none;
+    margin-top: 20px;
+    margin-left: 94px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#detailModal #detail-name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#detailModal #detail-name i {
+    font-size: 23px;
+}
+
+#detailModal #detail-creator,
+#detailModal #detail-createDate,
+#detailModal #detail-member {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#deleteModal #delete-confirm-mess {
+    font-size: 15px;
+}
+
+#deleteModal #delete-btn {
+    color: red;
+}
+
+
+/* Custom button Css */
+
+.modal-footer button {
+    margin: 0px 10px;
+}
+
+.modal select:invalid {
+    color: gray;
+}
+
+.modal .delete-btn {
+    background-color: rgba(255, 0, 0, 0.831);
+    color: white;
+}
